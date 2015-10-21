@@ -29,24 +29,24 @@
         android:background="@drawable/logo"
         />
   <EditText
-      android:id="@+id/pseudo"
+      android:id="@+id/login_email"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
-      android:text="Votre adresse mail"
+      android:hint="Votre adresse mail"
       android:inputType="textEmailAddress"
       android:layout_gravity="center"
       android:layout_marginTop="25dp"
       />
     <EditText
-        android:id="@+id/mdp"
+        android:id="@+id/login_pass"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Votre mot de passe"
+        android:hint="Votre mot de passe"
         android:inputType="textPassword"
         android:layout_gravity="center"
         />
     <Button
-        android:id="@+id/connecte"
+        android:id="@+id/login_connecte"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Se connecter"

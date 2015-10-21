@@ -61,33 +61,32 @@
                     android:textSize="15dp"
                     android:layout_marginLeft="30dp"
                     android:id="@+id/insciption_radiojardinier"
-                    android:onClick="onClickRegister"/>
+                    android:onClick="onClickRegister"
+                    android:checked="true"/>
+
             </RadioGroup>
             <EditText
                 android:id="@+id/inscription_email"
                 android:layout_marginTop="5dp"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:text="Adresse Email"
+                android:hint="Adresse Email"
                 android:gravity="center"
-                android:textColor="@color/gris"
                 android:inputType="textEmailAddress"
                 />
             <EditText
                 android:id="@+id/inscription_mdp"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:text="Mot de passe"
+                android:hint="Mot de passe"
                 android:gravity="center"
-                android:textColor="@color/gris"
                 android:inputType="textPassword"
                 />
             <EditText
                 android:id="@+id/inscription_remdp"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:text="Retapez votre mot de passe"
-                android:textColor="@color/gris"
+                android:hint="Retapez votre mot de passe"
                 android:gravity="center"
                 android:inputType="textPassword"
                 />
@@ -95,21 +94,17 @@
                 android:id="@+id/inscription_societe"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:text="nom de la société"
-                android:textColor="@color/gris"
+                android:hint="nom de la société"
                 android:gravity="center"
-                android:visibility="invisible"
                 />
 
             <EditText
                 android:id="@+id/inscription_tva"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:text="Numéro de TVA"
-                android:textColor="@color/gris"
+                android:hint="Numéro de TVA"
                 android:gravity="center"
                 android:inputType="number"
-                android:visibility="invisible"
                 />
             <Button
                 android:id="@+id/inscription_inscrire"
@@ -117,6 +112,7 @@
                 android:layout_height="wrap_content"
                 android:text="M'inscrire"
                 android:layout_gravity="center"
+                android:onClick="onClickRegister"
                 />
         </LinearLayout>
     </LinearLayout>
